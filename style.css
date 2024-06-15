@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main {
+    background-image: url(assets/images/BG.jpg);
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 70vh;
+    position: relative;
+}
+
+body {
+    background-color: black;
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+nav img {
+    color: #e50914;
+    width: 135px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.hero> :first-child {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.hero>:nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.separation {
+    height: 8px;
+    background-color: rgb(44, 39, 39);
+
+}
+
+.btn {
+    padding: 5px 14px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(24, 24, 24, 0.3);
+    border: 1px solid rgba(246, 238, 238, 0.2);
+    ;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.btn-red {
+    background-color: #e50914;
+    color: white;
+    font-size: 24px;
+    padding: 6px 18px;
+    border-radius: 4px;
+    border: none;
+}
+
+.btn-red-sm {
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    background-color: #e50914;
+    border: 1px solid rgba(246, 238, 238, 0.2);
+    ;
+    border-radius: 4px;
+    cursor: pointer;
+    gap: 5px;
+
+}
+
+.hero input {
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.3);
+    color: white;
+    font-size: 16px;
+    padding: 6.5px 18px;
+    border-radius: 4px;
+    width: 238px;
+    height: 29px;
+    align-items: center;
+    font-weight: 500;
+
+
+}
+
+.hero-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.sign-in-gap {
+    display: flex;
+    gap: 15px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 8px;
+    color: white;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    width: 436px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video {
+    position: absolute;
+    margin: auto;
+    top: 58px;
+    right: 45px;
+    width: 334px;
+}
+
+.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.first>div :nth-child(2) {
+    font-size: 24px;
+    margin-top: 10px;
+
+}
+
+.third video {
+    position: absolute;
+    margin: auto;
+    top: 11px;
+    right: 100px;
+    width: 260px;
+
+}
+
+.faq h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.faq {
+    background: black;
+    color: white;
+    padding: 24px;
+
+}
+
+.faqbox:hover {
+    background-color: #414141;
+}
+
+.faqbox {
+    transition: all 0.3s ease-out;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 72vw;
+    margin: 9px auto;
+    font-size: 24px;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 54px;
+}
+
+footer span {
+    margin-top: 100px;
+    margin: 2px 0vw;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    margin-top: 20px;
+
+}
+
+@media screen and (max-width: 1034px) {
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        color: white;
+        margin-top: 20px;
+        gap: 29px;
+
+    }
+}
+
+
+.footer-items {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.footer a {
+
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.hello {
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.3);
+    color: white;
+    font-size: 16px;
+    padding: 6.5px 18px;
+    border-radius: 4px;
+    width: 238px;
+    height: 29px;
+    align-items: center;
+    font-weight: 500;
+}
+
+.ready {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1034px) {
+    .first {
+        flex-wrap: wrap;
+    }
+
+    .hero> :first-child {
+        font-size: 32px;
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .hero> :nth-child(3) {
+        font-size: 18px;
+    }
+
+    nav {
+        max-width: 90vw;
+    }
+
+    .hero-btn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .faq h2 {
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        font-size: 32px;
+        font-weight: 900;
+    }
+
+    footer {
+        max-width: 90vw;
+    }
+
+    .footer {
+        align-items: center;
+    }
+
+
+}
